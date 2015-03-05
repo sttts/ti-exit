@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: ti-exit
+author: Dr. Stefan Schimanski
+license: BSD
+copyright: Copyright (c) 2015 by Dr. Stefan Schimanski
+
+# these should not be edited
+name: ti-exit
+moduleid: com.sttts.exit
+guid: 43106022-62cb-45f7-8fa9-82b1128d8039
+platform: iphone
+minsdk: 3.5.0.GA
