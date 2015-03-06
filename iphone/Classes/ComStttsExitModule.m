@@ -86,9 +86,15 @@
 
 #pragma Public APIs
 
--(id)exit:(id)args
+-(id)exit:(NSArray*)args
 {
-	exit(0);
+	if (args == nil || [args count] == 0) {
+		exit(0);
+	} else {
+		NSInteger *rc = [TiUtils intValue:[args objectAtIndex:0]];
+		exit(*rc);
+	}
+	return nil;
 }
 
 @end
