@@ -20,6 +20,12 @@ The ti_test variable is a reference to the Module object.
 ti_test.exit();
 ```
 
+or
+
+```
+ti_test.exit(1);
+```
+
 ## Author
 
 Dr. Stefan Schimanski
