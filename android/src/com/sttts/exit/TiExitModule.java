@@ -36,8 +36,7 @@ public class TiExitModule extends KrollModule
 	@Kroll.method
 	public void exit(int code)
 	{
-		System.runFinalizersOnExit(true);
-		System.exit(code);
+		((TiApplication)getActivity().getApplication()).terminateActivityStack();
 
 		return;
 	}
