@@ -2,7 +2,7 @@
 
 ## Description
 
-Exit an iOS applciation.
+Exit an iOS or Android applciation.
 
 ## Accessing the ti-test Module
 
