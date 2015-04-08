@@ -1,7 +1,7 @@
 ti-exit module
 ==============
 
-Quit the Ti app on iOS, especially suited for CI test runs from the command line.
+Quit the Ti app on iOS and Android, especially suited for CI test runs from the command line.
 
 BUILDING YOUR MODULE
 --------------------
