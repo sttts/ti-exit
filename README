@@ -31,7 +31,7 @@ Register your module with your application by editing `tiapp.xml` and adding you
 Example:
 
 <modules>
-	<module version="0.1">com.sttts.exit</module>
+	<module version="1.0.0">com.sttts.exit</module>
 </modules>
 
 When you run your project, the compiler will combine your module along with its dependencies
