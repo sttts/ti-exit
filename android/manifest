@@ -3,7 +3,7 @@
 # during compilation, packaging, distribution, etc.
 #
 version: 1.0.0
-apiversion: 2
+apiversion: 3
 architectures: armeabi armeabi-v7a x86
 description: ti-exit
 author: Your Name
@@ -15,4 +15,4 @@ name: ti-exit
 moduleid: com.sttts.exit
 guid: a14ad223-b54d-469e-9ffc-dfa52251ddc6
 platform: android
-minsdk: 3.5.0.GA
+minsdk: 6.0.1.GA

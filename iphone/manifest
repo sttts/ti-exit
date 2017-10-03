@@ -15,4 +15,4 @@ name: ti-exit
 moduleid: com.sttts.exit
 guid: 43106022-62cb-45f7-8fa9-82b1128d8039
 platform: iphone
-minsdk: 3.5.0.GA
+minsdk: 6.0.1.GA
